@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prinsca Angel Wilonna</title>
+    <link rel="stylesheet" href="style penghitung karakter.css">
+</head>
+<body>
+
+    <div class="card">
+        <h2>Penghitung Karakter</h2>
+        
+        <textarea id="pesan" maxlength="150" oninput="hitungKarakter()" placeholder="Tulis pesan Anda di sini..."></textarea>
+
+        <div id="info" class="info">
+            Sisa Karakter: <span id="sisa">150</span> / 150
+        </div>
+    </div>
+
+    <script src="script penghitung karakter.js"></script>
+</body>
+</html>

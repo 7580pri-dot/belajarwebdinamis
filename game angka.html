@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Ketentuan 1: Title menggunakan Nama Lengkap -->
+    <title>Prinsca Angel Wilonna</title>
+    <link rel="stylesheet" href="style game angka.css">
+</head>
+<body>
+
+    <div class="card">
+        <h2>Game Tebak Angka (1-10)</h2>
+        <p class="sub-title">Coba tebak angka rahasia pilihan komputer!</p>
+
+        <!-- Ketentuan 2: Input angka (1–10) & tombol konfirmasi -->
+        <label for="tebakan">Masukkan Angka (1-10):</label>
+        <input type="number" id="tebakan" min="1" max="10" placeholder="Contoh: 5">
+
+        <button onclick="tebakAngka()">Tebak!</button>
+
+        <!-- Ketentuan 4: Tampilan pesan petunjuk interaktif -->
+        <div id="pesanHasil" class="pesan-box"></div>
+    </div>
+
+    <script src="script game angka.js"></script>
+</body>
+</html>
